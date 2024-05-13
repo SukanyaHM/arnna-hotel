@@ -1730,6 +1730,25 @@ font-family: 'Renner', 'Helvetica Neue', Arial,Verdana,sans-serif;
 color: #fff;
 }
 
+.mobile_main_nav li a:hover, .mobile_main_nav li .button-book {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000;
+  /* border-style: ridge; */
+  color: rgb(255, 255, 255);
+  text-align: left;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.mobile_main_nav li a:hover, .mobile_main_nav li .button-book:hover {
+  background-color: #0e0e0e73;
+  
+}
+
 .mobile_main_nav li ul.sub-menu
 {
 display: none;

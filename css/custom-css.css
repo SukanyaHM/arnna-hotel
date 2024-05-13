@@ -40,16 +40,18 @@ ul.breadcrumb {
   .button-book {
     display: inline-block;
     padding: 20px 30px;
-    background-color: #d1d1d14a;
-    border-style: ridge;
-    color: white;
+    background-color: #000000;
+    /* border-style: ridge; */
+    color: rgb(255, 255, 255);
     text-align: center;
     text-decoration: none;
     font-size: 16px;
+    font-weight: bold;
     border-radius: 5px;
-    border:#000;
+    border: 1px solid black;
   }
   
   .button-book:hover {
-    background-color: #25252556; /* Darker Green */
+    background-color: #0e0e0e73;
+    
   }
