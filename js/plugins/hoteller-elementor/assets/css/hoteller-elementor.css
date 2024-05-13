@@ -3215,10 +3215,16 @@ body[data-route-option="prev-section"] .c-header-home_subheading.-load, body[dat
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
+/* .slider_parallax_wrapper .slide .image-container .image{
+	opacity: 0.8;
+
+} */
 .slider_parallax_wrapper .slide .image {
   width: 100%;
-  width: 100%;
+  /* width: 100%; */
+  /* opacity: 0.5; */
   object-fit: cover;
+ 
   /* height: 100%; */
 }
 .slider_parallax_wrapper .slide-content {
