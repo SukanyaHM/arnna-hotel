@@ -555,6 +555,10 @@ body.modalview #perspective
 background-color: #BE6835;
 color: #050505;
 }
+#footer_wrapper_1_2{
+  background-color: #BE6835;
+  color: #050505;
+  }
 body.modalview #footer_wrapper
 {
 display: none;
@@ -564,6 +568,10 @@ body.modalview #footer_wrapper_1
 display: none;
 }
 body.modalview #footer_wrapper_2
+{
+display: none;
+}
+body.modalview #footer_wrapper_1_2
 {
 display: none;
 }
@@ -661,6 +669,11 @@ display: none;
 }
 body.tg_password_protected #page_caption, 
 body.tg_password_protected #footer_wrapper_2
+{
+display: none;
+}
+body.tg_password_protected #page_caption, 
+body.tg_password_protected #footer_wrapper_1_2
 {
 display: none;
 }
@@ -2442,6 +2455,11 @@ float: left;
 width: 100%;
 float: left;
 }
+#footer_wrapper_1_2
+{
+width: 100%;
+float: left;
+}
 body.leftmenu #footer_wrapper
 {
 width: calc(100% - 350px);
@@ -2453,6 +2471,11 @@ width: calc(100% - 350px);
 margin-left: 350px;
 }
 body.leftmenu #footer_wrapper_2
+{
+width: calc(100% - 350px);
+margin-left: 350px;
+}
+body.leftmenu #footer_wrapper_1_2
 {
 width: calc(100% - 350px);
 margin-left: 350px;
@@ -9138,6 +9161,9 @@ margin-top: 0px;
 #footer_wrapper_2 {
 margin-top: 0px;
 }
+#footer_wrapper_1_2 {
+  margin-top: 0px;
+  }
 .footer_bar_wrapper {
   font-size: 15px;
 }
@@ -9203,6 +9229,13 @@ margin-top: 0px;
 #footer a:hover:not(.button),
 .social_wrapper ul li a:hover,
 #footer_wrapper_2 a:hover:not(.button),
+#footer_photostream a:hover {
+  color: #ffffff;
+}
+#copyright a:hover,
+#footer a:hover:not(.button),
+.social_wrapper ul li a:hover,
+#footer_wrapper_1_2 a:hover:not(.button),
 #footer_photostream a:hover {
   color: #ffffff;
 }
@@ -9349,12 +9382,21 @@ background-color: #DABEB0;
 color: #000000;
 padding-top: 50px;
 /* width: 1440px; */
-
 }
+#footer_wrapper_1_2 .Amenities{
+  background-color: #ffffff;
+  color: #000000;
+  padding-top: 50px;
+  /* width: 1440px; */
+  }
 #footer_wrapper_1 .Amenities .elementor-container .item .icon img:hover{
 animation: shake 10s;
 animation-iteration-count: infinite;
 }
+#footer_wrapper_1_2 .Amenities .elementor-container .item .icon img:hover{
+  animation: shake 10s;
+  animation-iteration-count: infinite;
+  }
 #footer_wrapper_2 .Amenities h2{
 color: #050505; 
 /* margin-top: 20px; */
